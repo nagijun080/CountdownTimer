@@ -9,7 +9,8 @@
     
     <CheckBoxPreference 
         android:key="@string/key_vibrator"
-        />
+        android:title="@string/label_vibrator"
+        android:defaultValue="true"/>
     
 
 </PreferenceScreen>

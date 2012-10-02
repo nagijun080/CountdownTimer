@@ -27,6 +27,7 @@
         </activity>
         <service android:name="TimerService"></service>
         <activity android:name="AlarmDialog" android:excludeFromRecents="true" android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name="Preferences"></activity>
     </application>
 
 </manifest>

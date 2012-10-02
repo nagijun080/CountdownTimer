@@ -135,6 +135,18 @@ public class CountdownTimerActivity extends Activity {
 				sb.setEnabled(true);
 			}
 		});
+		
+		((Button)findViewById(R.id.buttonSettings)).setOnClickListener(
+				new OnClickListener() {
+
+					@Override
+					public void onClick(View v) {
+						// TODO 自動生成されたメソッド・スタブ
+						Intent intent = new Intent(CountdownTimerActivity.this, Preferences.class);
+						startActivity(intent);
+					}
+					
+				});
 	}
 	 
 
